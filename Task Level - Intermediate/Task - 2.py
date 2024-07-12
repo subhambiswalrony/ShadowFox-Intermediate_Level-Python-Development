@@ -1,5 +1,5 @@
 '''
-Hangman: Implement the wordguessing game with visual progress and hints.
+Hangman: Implement the word guessing game with visual progress and hints.
 '''
 
 
@@ -40,6 +40,6 @@ class Hangman:
 
 # Example usage
 if __name__ == "__main__":
-    secret_word = "python"  # Replace with any word you like
+    secret_word = "subham"  # here I take a name, you can slo change it according to your choice.
     game = Hangman(secret_word)
     game.play()
